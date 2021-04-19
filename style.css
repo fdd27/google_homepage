@@ -1,0 +1,41 @@
+.header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: block;
+    float: right;
+    padding: 8px;
+    text-align: center;
+}
+
+li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li img:hover{
+    cursor: pointer;
+    background-color: #bebebe;
+    /*
+    color: #5f6368;
+    opacity: 1;
+    fill: currentColor;
+    */
+}
+
+#logo{
+    position: static;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-position: center;
+}
+
+.footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
